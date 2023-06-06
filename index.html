@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>ChatGPT Invest</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon/favicon.svg"/>
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/splide.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="attention-message text-center">
+            <div class="container">
+                <strong>ATTENTION: REGISTER NOW !!</strong> 
+                Registration will end on <span class="date">29/09/2022</span> - 
+                <strong>DON'T MISS THIS OPPORTUNITY!</strong>
+            </div>
+        </div>
+        <header class="header" id="header">
+            <div class="container flex center just-between">
+                <img src="assets/img/svg/logo-white.svg" width="242" height="40" alt="Logo" class="header-logo-img" onclick="scrollToElem('#formWrapper')" loading="lazy">
+                <div class="widgets-panel flex center">
+                    <div class="widget-wrapper flex center">
+                        <span class="widget-name">Bitcoin Volume</span>
+                        <span class="widget-price" id="btc_volume">$21.35B</span>
+                        <img src="assets/img/svg/arrow-up-green.svg" width="12" height="12" alt="Arrow Up" class="arrow-up">
+                    </div>
+                    <div class="widget-wrapper flex center">
+                        <span class="widget-name">OPEN AI Volume</span>
+                        <span class="widget-price" id="openai_volume">$22.12B</span>
+                        <img src="assets/img/svg/arrow-up-green.svg" width="12" height="12" alt="Arrow Up" class="arrow-up">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="hero-section">
+                <div class="container">
+                    <h1 class="main-heading text-white reveal">
+                        Easy and Reliable Path to Richness for All. Make passive income with artificial intelligence right now!
+                    </h1>
+                    <div class="hero-content flex start just-between">
+                        <div class="hero-video-wrapper video reveal delay-02">
+                            <video src="assets/video/Chat_GPT.mp4" width="100%" height="auto" poster="assets/video/poster.png" controls controlsList="nodownload" playsinline class="hero-video"></video>
+                            <div class="play-btn"></div>
+                        </div>
+                        <div class="hero-form-part reveal delay-04">
+                            <div class="form-wrapper">
+                                <h2>
+                                    Free registration
+                                </h2>
+                                <p>
+                                    One step closer to your new quality of life:
+                                </p>
+                                <form action="thankyou.html" onsubmit="event.preventDefault(); formSubmission()">
+                                    <p class="form-disclaimer">
+                                        *This form is here only for layout demonstration. The entered data is not sent anywhere.
+                                    </p>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input name" placeholder="Your Name">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input lastname" placeholder="Your Lastname">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input email" placeholder="Your Email">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input phone" placeholder="Your Phone">
+                                    </div>
+                                    <div class="required-fields">
+                                        Please fill in all the fields
+                                    </div>
+                                    <div class="input-wrap">
+                                        <button class="btn alert-btn">Register now*</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <a href="javascript:void(0)" class="learn-more-link text-center centered" onclick="scrollToElem('#about')">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="section-divider container reveal static"></div>
+            <section class="about-section" id="about">
+                <div class="container">
+                    <h2 class="section-heading reveal">
+                        Trade smart and earn fast
+                    </h2>
+                    <h4 class="section-subheading reveal">
+                        You can get a huge success like ChatGPT Invest made a few weeks ago!
+                    </h4>
+                    <p class="section-text reveal">
+                        ChatGPT is conquering the financial industry, changing the way how people make investment decisions. Its algorithms analyze the world's news and market fluctuations in real time, outpacing any human. So while other traders are searching for this information on the internet, our members already take advantage of ChatGPT's insane profitability.
+                    </p>
+                    <p class="section-text reveal">
+                        Earning money online has never been easier! We are a brand new financial platform powered by  ChatGPT's artificial intelligence. To join us, you only need to deposit an initial amount of 250 dollars into your trading account, after that our software will automatically start operating on your behalf and close lucrative deals with an impressive 99.6% success rate.
+                    </p>
+                    <p class="section-text reveal">
+                        ChatGPT is set to be the next big thing. So this is the right time to start trading with this advanced solution. Become a part of the technological revolution that is happening around the globe right now. Sign up with ChatGPT Invest and make your money work for you!
+                    </p>
+                    <button class="btn modal-call reveal">
+                        REGISTER NOW
+                    </button>
+                </div>
+            </section>
+            <section class="reviews-section" id="reviews">
+                <div class="container">
+                    <h2 class="section-heading reveal">
+                        The Hottest Success Stories
+                    </h2>
+                    <div class="reviews-wrapper flex just-between">
+                        <div class="chosen-review-wrapper reveal">
+                            <div class="chosen-review-card active" id="chosenCard001" data-user="reviewCard001">
+                                <span class="card-number">#1</span>
+                                <div class="card-heading flex center">
+                                    <img src="assets/img/user-001.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                    <div class="user-info">
+                                        <div class="user-position">
+                                            Shop assistant
+                                        </div>
+                                        <div class="user-name">
+                                            Martin Smith
+                                        </div>
+                                        <div class="user-income">
+                                            $10,883
+                                        </div>
+                                        <div class="income-comment">
+                                            First week income
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    Wow, $10,000 of passive income on a weekly basis! I had a stable job and worked at a local shop for a long time. However, after the news of my wife's pregnancy, we realized that we needed a bigger house for our growing family and pets. So I decided to start looking for higher-paying and more prestigious jobs. Initially, I was nervous about starting something new, but it seems like ChatGPT has made things easy for me. With an income like this, I might not even have to work anymore! And the best part is that we are moving to a new dwelling this month.  Thank you and cheers!
+                                </p>
+                            </div>
+                            <div class="chosen-review-card" id="chosenCard002" data-user="reviewCard002">
+                                <span class="card-number">#2</span>
+                                <div class="card-heading flex center">
+                                    <img src="assets/img/user-002.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                    <div class="user-info">
+                                        <div class="user-position">
+                                            Medical Student
+                                        </div>
+                                        <div class="user-name">
+                                            Anna Moreno
+                                        </div>
+                                        <div class="user-income">
+                                            $6,120
+                                        </div>
+                                        <div class="income-comment">
+                                            First week income
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    I never thought earning money could be so easy! Every student goes through financial problems, and I'm not an exception.  I'm close to graduating from medical college and it's taking up all of my time. I've even had to give up hanging out with friends just to make ends meet. There's been no free time or money to spare, and the only opportunity I could find was at McDonald's, which isn't exactly a high-paying job. But after a lot of searching for a solution to my financial worries, I came across ChatGPT. Thanks to this platform, I now have so much money that I don't need to take on extra work anymore. I can focus solely on my studies and aim for the highest grades in all my courses. People at my college are curious about how I seem so relaxed while still excelling academically... Maybe I'll reveal my secret to them later on!
+                                </p>
+                            </div>
+                            <div class="chosen-review-card" id="chosenCard003" data-user="reviewCard003">
+                                <span class="card-number">#3</span>
+                                <div class="card-heading flex center">
+                                    <img src="assets/img/user-003.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                    <div class="user-info">
+                                        <div class="user-position">
+                                            Business owner
+                                        </div>
+                                        <div class="user-name">
+                                            Daniel Zhou
+                                        </div>
+                                        <div class="user-income">
+                                            $5,220
+                                        </div>
+                                        <div class="income-comment">
+                                            First week income
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    Hello everyone, I'm delighted to share my thoughts on the new ChatGPT. My name is Daniel, and I have extensive experience as an entrepreneur, but not a trader. Despite my initial skepticism about this platform, I decided to give it a try as an experiment, and I was pleasantly surprised by the results. Investing with the help of  ChatGPT Invest turned out to be an easy and straightforward process, and I never expected to earn a passive income of almost $10,000 in just one week. Previously, I believed that achieving such returns required a great deal of hard work, but now I'm considering retiring from my business and leading a more stress-free life. I believe it can come true thanks to this astonishing platform.
+                                </p>
+                            </div>
+                            <div class="chosen-review-card" id="chosenCard004" data-user="reviewCard004">
+                                <span class="card-number">#4</span>
+                                <div class="card-heading flex center">
+                                    <img src="assets/img/user-004.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                    <div class="user-info">
+                                        <div class="user-position">
+                                            Pensioner
+                                        </div>
+                                        <div class="user-name">
+                                            Cherry Qien
+                                        </div>
+                                        <div class="user-income">
+                                            $2,430
+                                        </div>
+                                        <div class="income-comment">
+                                            First week income
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    I am grateful that there are still people who make positive contributions to our economy, especially in a country where the leaders seem incompetent. In the past, it was enough to work diligently to get a decent income, but things have changed. Luckily, my son explained to me how to generate money here, which I wouldn't be able to do on my own. Although I don't understand fully what technologies stand behind ChatGPT, this has worked out well for me. I don't have to do anything, I just sit back and watch my trading account grow. As a result, I feel optimistic about what the future brings me.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="reviews-cards-wrapper">
+                            <div class="reviews-card flex just-between reveal" id="reviewCard001">
+                                <img src="assets/img/user-001.png" width="100" height="100" alt="User" class="card-img" loading="lazy">
+                                <div class="user-info">
+                                    <div class="user-position">
+                                        Shop assistant
+                                    </div>
+                                    <div class="user-name">
+                                        Martin Smith
+                                    </div>
+                                    <div class="user-income">
+                                        $10,883
+                                    </div>
+                                    <div class="income-comment">
+                                        First week income
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    Wow, $10,000 of passive income on a weekly basis! I had a stable job and worked at a local shop for a long time. However, after the news of my wife's pregnancy, we realized that we needed a bigger house for our growing family and pets. So I ...<strong>Read more</strong>
+                                </p>
+                            </div>
+                            <div class="reviews-card flex just-between visible reveal" id="reviewCard002">
+                                <img src="assets/img/user-002.png" width="100" height="100" alt="User" class="card-img" loading="lazy">
+                                <div class="user-info">
+                                    <div class="user-position">
+                                        Medical Student
+                                    </div>
+                                    <div class="user-name">
+                                        Anna Moreno
+                                    </div>
+                                    <div class="user-income">
+                                        $6,120
+                                    </div>
+                                    <div class="income-comment">
+                                        First week income
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    I never thought earning money could be so easy! Every student goes through financial problems, and I'm not an exception.  I'm close to graduating from medical college and it's taking up all of my time. I've even had to give up hanging out with friends just to...<strong>Read More</strong> 
+                                </p>
+                            </div>
+                            <div class="reviews-card flex just-between visible reveal" id="reviewCard003">
+                                <img src="assets/img/user-003.png" width="100" height="100" alt="User" class="card-img" loading="lazy">
+                                <div class="user-info">
+                                    <div class="user-position">
+                                        Business owner
+                                    </div>
+                                    <div class="user-name">
+                                        Daniel Zhou
+                                    </div>
+                                    <div class="user-income">
+                                        $5,220
+                                    </div>
+                                    <div class="income-comment">
+                                        First week income
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    Hello everyone, I'm delighted to share my thoughts on the new ChatGPT. My name is Daniel, and I have extensive experience as an entrepreneur, but not a trader. Despite my initial skepticism about this platform, I decided to give it a try...<strong>Read More</strong>
+                                </p>
+                            </div>
+                            <div class="reviews-card flex just-between visible reveal" id="reviewCard004">
+                                <img src="assets/img/user-004.png" width="100" height="100" alt="User" class="card-img" loading="lazy">
+                                <div class="user-info">
+                                    <div class="user-position">
+                                        Pensioner
+                                    </div>
+                                    <div class="user-name">
+                                        Cherry Qien
+                                    </div>
+                                    <div class="user-income">
+                                        $2,430
+                                    </div>
+                                    <div class="income-comment">
+                                        First week income
+                                    </div>
+                                </div>
+                                <p class="card-text">
+                                    I am grateful that there are still people who make positive contributions to our economy, especially in a country where the leaders seem incompetent. In the past, it was enough to work diligently to get a decent income, but things have changed. Luckily, my son...<strong>Read More</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-wrapper splide reveal">
+                        <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="chosen-review-card splide__slide" id="chosenCard001" data-user="reviewCard001">
+                                    <span class="card-number">#1</span>
+                                    <div class="card-heading flex center">
+                                        <img src="assets/img/user-001.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                        <div class="user-info">
+                                            <div class="user-position">
+                                                Shop assistant
+                                            </div>
+                                            <div class="user-name">
+                                                Martin Smith
+                                            </div>
+                                            <div class="user-income">
+                                                $10,883
+                                            </div>
+                                            <div class="income-comment">
+                                                First week income
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        Wow, $10,000 of passive income on a weekly basis! I had a stable job and worked at a local shop for a long time. However, after the news of my wife's pregnancy, we realized that we needed a bigger house for our growing family and pets. So I decided to start looking for higher-paying and more prestigious jobs. Initially, I was nervous about starting something new, but it seems like ChatGPT has made things easy for me. With an income like this, I might not even have to work anymore! And the best part is that we are moving to a new dwelling this month.  Thank you and cheers!
+                                    </p>
+                                </div>
+                                <div class="chosen-review-card splide__slide" id="chosenCard002" data-user="reviewCard002">
+                                    <span class="card-number">#2</span>
+                                    <div class="card-heading flex center">
+                                        <img src="assets/img/user-002.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                        <div class="user-info">
+                                            <div class="user-position">
+                                                Medical Student
+                                            </div>
+                                            <div class="user-name">
+                                                Anna Moreno
+                                            </div>
+                                            <div class="user-income">
+                                                $6,120
+                                            </div>
+                                            <div class="income-comment">
+                                                First week income
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        I never thought earning money could be so easy! Every student goes through financial problems, and I'm not an exception.  I'm close to graduating from medical college and it's taking up all of my time. I've even had to give up hanging out with friends just to make ends meet. There's been no free time or money to spare, and the only opportunity I could find was at McDonald's, which isn't exactly a high-paying job. But after a lot of searching for a solution to my financial worries, I came across ChatGPT. Thanks to this platform, I now have so much money that I don't need to take on extra work anymore. I can focus solely on my studies and aim for the highest grades in all my courses. People at my college are curious about how I seem so relaxed while still excelling academically... Maybe I'll reveal my secret to them later on!
+                                    </p>
+                                </div>
+                                <div class="chosen-review-card splide__slide" id="chosenCard003" data-user="reviewCard003">
+                                    <span class="card-number">#3</span>
+                                    <div class="card-heading flex center">
+                                        <img src="assets/img/user-003.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                        <div class="user-info">
+                                            <div class="user-position">
+                                                Business owner
+                                            </div>
+                                            <div class="user-name">
+                                                Daniel Zhou
+                                            </div>
+                                            <div class="user-income">
+                                                $5,220
+                                            </div>
+                                            <div class="income-comment">
+                                                First week income
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        Hello everyone, I'm delighted to share my thoughts on the new ChatGPT. My name is Daniel, and I have extensive experience as an entrepreneur, but not a trader. Despite my initial skepticism about this platform, I decided to give it a try as an experiment, and I was pleasantly surprised by the results. Investing with the help of  ChatGPT Invest turned out to be an easy and straightforward process, and I never expected to earn a passive income of almost $10,000 in just one week. Previously, I believed that achieving such returns required a great deal of hard work, but now I'm considering retiring from my business and leading a more stress-free life. I believe it can come true thanks to this astonishing platform.
+                                    </p>
+                                </div>
+                                <div class="chosen-review-card splide__slide" id="chosenCard004" data-user="reviewCard004">
+                                    <span class="card-number">#4</span>
+                                    <div class="card-heading flex center">
+                                        <img src="assets/img/user-004.png" width="180" height="180" alt="User" class="card-img" loading="lazy">
+                                        <div class="user-info">
+                                            <div class="user-position">
+                                                Pensioner
+                                            </div>
+                                            <div class="user-name">
+                                                Cherry Qien
+                                            </div>
+                                            <div class="user-income">
+                                                $2,430
+                                            </div>
+                                            <div class="income-comment">
+                                                First week income
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="card-text">
+                                        I am grateful that there are still people who make positive contributions to our economy, especially in a country where the leaders seem incompetent. In the past, it was enough to work diligently to get a decent income, but things have changed. Luckily, my son explained to me how to generate money here, which I wouldn't be able to do on my own. Although I don't understand fully what technologies stand behind ChatGPT, this has worked out well for me. I don't have to do anything, I just sit back and watch my trading account grow. As a result, I feel optimistic about what the future brings me.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="section-divider container reveal static"></div>
+            <section class="steps-section" id="steps">
+                <div class="container">
+                    <h2 class="section-heading reveal">
+                        How to start using ChatGPT Invest Platform
+                    </h2>
+                    <div class="steps-wrapper flex wrap just-between">
+                        <div class="steps-card reveal">
+                            <h4>
+                                REGISTRATION
+                            </h4>
+                            <div class="card-content flex just-between">
+                                <div class="text-part">
+                                    <div class="card-text">
+                                        Provide your first and last name, email address, selected security password and phone number. After confirming the entered data, you become a full member of the system.
+                                    </div>
+                                    <div class="warning-message">
+                                        Enter your email address to get VIP access to the system
+                                    </div>
+                                    <div class="warning-message">
+                                        Enter your mobile phone number to verify your identity
+                                    </div>
+                                </div>
+                                <div class="img-part">
+                                    <img src="assets/img/form-image.jpg" alt="Registration Form" class="steps-card-image" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="steps-card reveal delay-02">
+                            <h4>
+                                MAKING A DEPOSIT
+                            </h4>
+                            <div class="card-content flex just-between">
+                                <div class="text-part">
+                                    <h4>
+                                        PUT INITIAL DEPOSIT INTO YOUR ACCOUNT
+                                    </h4>
+                                    <div class="card-text">
+                                        Put an initial deposit ($250) to your account before start using the platform. Follow the instructions on the screen to complete.
+                                    </div>
+                                    <div class="warning-message">
+                                        To activate your account and start earning, you must invest an amount not less than the minimum deposit
+                                    </div>
+                                </div>
+                                <div class="img-part">
+                                    <img src="assets/img/deposit-img.png" alt="Deposit" class="steps-card-image" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="steps-card full-w reveal delay-02">
+                            <h4>
+                                WELCOME TO THE PLATFORM
+                            </h4>
+                            <div class="card-content flex just-between">
+                                <div class="text-part">
+                                    <h4>
+                                        ANSWER THE CALL TO START GETTING THE PASSIVE INCOME EVERY DAY
+                                    </h4>
+                                    <div class="card-text">
+                                        After registration, wait a few minutes and answer the incoming call from our manager. You'll get the answers to all of your questions and find out on how to make money on the platform easily.
+                                    </div>
+                                </div>
+                                <img src="assets/img/call-center-guy.png" alt="Assistant" class="steps-card-image assistant reveal static" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="faq-section" id="faq">
+                <div class="container">
+                    <h2 class="section-heading reveal">
+                        Frequently Asked Questions
+                    </h2>
+                    <div class="faq-wrapper flex wrap just-between">
+                        <div class="faq-item reveal">
+                            <h4>
+                                Do I need prior knowledge of ChatGPT and investments?
+                            </h4>
+                            <p class="card-text">
+                                To make money on ChatGPT using our system, you do not need to be a tech expert or an advanced follower of online trends.  Our algorithm selects the most profitable trades, and all you need is a minimal investment of $250 or more to start building passive income.
+                            </p>
+                        </div>
+                        <div class="faq-item reveal delay-02">
+                            <h4>
+                                Why don't you mention hidden fees and taxes?
+                            </h4>
+                            <p class="card-text">
+                                That's because they don't exist. Cryptocurrencies are a new generation technology where all transactions are made between people without involving banks.  You don't pay huge interests on your hard-earned money.
+                            </p>
+                        </div>
+                        <div class="faq-item reveal delay-04">
+                            <h4>
+                                How much does it cost to get started?
+                            </h4>
+                            <p class="card-text">
+                                We provide ChatGPT INVEST for free registration to anyone who is ready to start testing it right now. To begin with, you just need to deposit a minimum amount of $250.
+                            </p>
+                        </div>
+                        <div class="faq-item reveal delay-06">
+                            <h4>
+                                How much time does trading with ChatGPT take?
+                            </h4>
+                            <p class="card-text">
+                                There is no set amount of time per day that you need to work with ChatGPT. The amount of time you dedicate to it is up to you, and the more time you invest, the more profit you can potentially make.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="section-divider container"></div>
+            <section class="lower-form-section" id="registrationForm">
+                <div class="container">
+                    <h2 class="section-heading reveal">
+                        Your life will feel especially easy with this huge passive income!
+                    </h2>
+                    <div class="lower-section-content flex just-between">
+                        <div class="img-wrapper reveal">
+                            <img src="assets/img/chatgpt-pic.jpg" alt="ChatGPT" class="lower-section-img" loading="lazy">
+                        </div>
+                        <div class="hero-form-part reveal delay-02">
+                            <div class="form-wrapper" id="formWrapper">
+                                <h2>
+                                    Free registration
+                                </h2>
+                                <p>
+                                    One step closer to your new quality of life:
+                                </p>
+                                <form action="thankyou.html" onsubmit="event.preventDefault(); formSubmission()">
+                                    <p class="form-disclaimer">
+                                        *This form is here only for layout demonstration. The entered data is not sent anywhere.
+                                    </p>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input name" placeholder="Your Name">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input lastname" placeholder="Your Lastname">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input email" placeholder="Your Email">
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" class="form-input phone" placeholder="Your Phone">
+                                    </div>
+                                    <div class="required-fields">
+                                        Please fill in all the fields
+                                    </div>
+                                    <div class="input-wrap">
+                                        <button class="btn alert-btn">Register now*</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <a href="javascript:void(0)" class="learn-more-link text-center centered" onclick="scrollToElem('#about')">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="section-divider container reveal static"></div>
+        </main>
+        <footer class="footer">
+            <div class="footer-upper container flex just-between">
+                <div class="copyright reveal">
+                    ChatGPT Invest © 2015 – <span class="year">2023</span>
+                    <div class="policies">
+                        <a href="javascript:void(0)" data-name="terms" class="alterlink">Terms</a> & 
+                        <a href="javascript:void(0)" data-name="policy" class="alterlink">policies</a>
+                    </div>
+                </div>
+                <button class="btn-to-top reveal delay-02" onclick="scrollToElem('#header')">
+                    <span>Back to top</span> 
+                </button>
+            </div>
+            <div class="footer-lower container centered reveal">
+                Important Risk Note: Trading in FX and CFDs involves a high risk of loss due to the leveraged nature of the trading which might lead to the total loss of your capital and which might not be appropriate for all types of investors. Please read our full risk warning and the relevant broker you will be registered with to ensure that you understand the risks involved prior to proceeding, taking into consideration your relevant experience. Seek independent advice if necessary. The information contained in this website and disclosure documents is of a general nature only, and does not take into account your personal circumstances, financial situation or needs. You should consider the brokerage Client Agreement carefully, and seek independent advice before deciding whether trading in such products is suitable for you.
+            </div>
+        </footer>
+        <div class="footer-decor-wrapper">
+            <img src="assets/img/svg/footer-decor-stripes.svg" alt="Decor">
+        </div>
+        <!-- MODAL -->
+        <div class="modal form-modal">
+            <img src="assets/img/close.png" alt="close" class="close-icon">
+            <div class="modal-content">
+                <div class="form-wrapper">
+                    <h2>
+                        Free registration
+                    </h2>
+                    <p>
+                        One step closer to your new quality of life:
+                    </p>
+                    <form action="thankyou.html" onsubmit="event.preventDefault(); formSubmission()">
+                        <p class="form-disclaimer">
+                            *This form is here only for layout demonstration. The entered data is not sent anywhere.
+                        </p>
+                        <div class="input-wrap">
+                            <input type="text" class="form-input name" placeholder="Your Name">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" class="form-input lastname" placeholder="Your Lastname">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" class="form-input email" placeholder="Your Email">
+                        </div>
+                        <div class="input-wrap">
+                            <input type="text" class="form-input phone" placeholder="Your Phone">
+                        </div>
+                        <div class="required-fields">
+                            Please fill in all the fields
+                        </div>
+                        <div class="input-wrap">
+                            <button class="btn alert-btn">Register now*</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/splide.min.js"></script>
+    <script src="assets/js/scroll-polyfill.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
